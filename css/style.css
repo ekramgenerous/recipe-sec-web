@@ -6,32 +6,76 @@
 }
 
 
-:root{
+/* :root{
     --main-color:red;
     --secodary-color:grey;
     --main-font-size:10px;
     --main-font-family:arial;
-}
+} */
 
 body {
     background-color: antiquewhite;
 }
 .background{
     background-color:hsl(0, 0%, 100%) ;
-    width:1000px;
-    min-height: 1000px;
+    width:800px;
+    min-height: 800px;
     border-radius: 15px;
+    margin: auto;
 }
+@media (min-width: 320px) and (max-width: 375px) {
+    .background{
+        background-color:hsl(0, 0%, 100%) ;
+        width:300px;
+        min-height: 2000px;
+        border-radius: 15px;
+        margin: auto;
+    }
+  }
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+   
 .img-recipe{
-   width:70%;
-   height:40%;
-   border-radius:15px;
+    width: 87%;
+    height: 40%;
+    border-radius: 15px;
+    margin: 50px;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .img-recipe{
+        width: 83%;
+        border-radius: 15px;
+        margin: 25px;
+    }
+
 }
 .title{
    font-size: 30px;
+   font-family: "Young Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-left: 48px;
+   margin-top: -14px;
+   
 }
 .title-des{
   font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 47px;
 }
 .attribution { 
     font-size: 11px; 
