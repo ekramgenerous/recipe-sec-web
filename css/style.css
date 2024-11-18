@@ -75,7 +75,28 @@ body {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  margin-left: 47px;
+}
+th{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: -10px;
+
+}
+td{
+    /* display:table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate; */
+    margin-left: 10px;
+
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    width: 70%;
+    padding-right:5px;
+    margin:40px;
+    border-bottom: 2px solid grey;
 }
 /* table ,tr,td {
     border-style: solid;
