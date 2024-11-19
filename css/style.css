@@ -84,26 +84,23 @@ th{
 
 }
 td{
-    /* display:table-row;
-    vertical-align: inherit;
-    unicode-bidi: isolate; */
+    
     margin-left: 10px;
 
 }
 table {
     border-collapse: separate;
     text-indent: initial;
-    width: 70%;
     padding-right:5px;
     margin:40px;
-    border-bottom: 2px solid grey;
 }
-/* table ,tr,td {
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-bottom: 10px;
-} */
+.bottom {
+    width:90%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.689);
+    margin: auto;
+   
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
