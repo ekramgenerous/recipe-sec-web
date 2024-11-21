@@ -1,9 +1,9 @@
-
+/* 
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-}
+} */
 
 
 /* :root{
@@ -23,15 +23,6 @@ body {
     border-radius: 15px;
     margin: auto;
 }
-@media (min-width: 320px) and (max-width: 375px) {
-    .background{
-        background-color:hsl(0, 0%, 100%) ;
-        width:300px;
-        min-height: 2000px;
-        border-radius: 15px;
-        margin: auto;
-    }
-  }
 .young-serif-regular {
     font-family: "Young Serif", serif;
     font-weight: 400;
@@ -51,14 +42,6 @@ body {
     height: 40%;
     border-radius: 15px;
     margin: 50px;
-}
-@media (min-width: 320px) and (max-width: 375px) {
-    .img-recipe{
-        width: 83%;
-        border-radius: 15px;
-        margin: 25px;
-    }
-
 }
 .title{
    font-size: 30px;
@@ -80,7 +63,7 @@ body {
 }
 h3 {
     color:purple;
-    margin-left: 48px;
+    margin-left: 21px;
     margin-top: -14px;
     padding-top: 25px;
 }
@@ -102,14 +85,14 @@ h3 {
     font-weight:bolder;
     color:rgb(0, 0, 0);
     letter-spacing: -1px;
-    padding-left:15px;
+    padding-left:18px;
 
 }
 h2{
     color:brown;
     margin-left: 48px;
-    margin-top: -14px;
-    padding-top:15px;
+    margin-top: 4px;
+    padding-top:17px;
   }
 
 li::marker{
@@ -131,6 +114,11 @@ th,  td {
 td {
     color:brown;
 }
+.n-des {
+    margin-left: 48px;
+    margin-top: -2px;
+    padding-top: 6px;
+}
 
 .bottom {
     width:90%;
@@ -138,6 +126,30 @@ td {
     margin: auto;
     padding-bottom:20px;
    
+}
+@media (min-width: 320px) and (max-width: 375px) {
+     .background{
+        height: 2000px;
+        border-radius: 15px;
+        margin: auto;
+    }
+    .img-recipe{
+        width: 100%;
+        border-radius: 15px;
+        margin:auto;
+    }
+    .duration{
+        width: 80%;
+        border-radius: 15px;
+        margin: 25px;
+    }
+    ol li{
+        margin-right: 24px;
+    }
+    .title,h2,.n-des{
+        margin-top: 27px;
+        margin-right: 27px;
+    }
 }
 
 .attribution { 
